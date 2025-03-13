@@ -1,16 +1,24 @@
-# api_integration
+# Flutter API Integration Assignment
 
-A new Flutter project.
+This project demonstrates API integration and data fetching using Flutter.
 
-## Getting Started
+## Features
+* Fetches data from the JSONPlaceholder API
+* Displays post titles and body in a scrollable ListView
+* Implements a loading indicator while fetching data
+* Handles API errors gracefully
 
-This project is a starting point for a Flutter application.
+## Setup(git)
+1. Clone the repository
+2. Run `flutter pub get` to install dependencies
+3. Run `flutter run` to start the app
 
-A few resources to get you started if this is your first Flutter project:
+## Setup(zip)
+1. Extract the zip folder
+2. Open into Android Studio
+3. Run `flutter pub get` to install dependencies
+4. Run `flutter run` to start the app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Assumptions
+* The JSONPlaceholder API is available and responding correctly
+* The user has a stable internet connection
